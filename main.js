@@ -4,7 +4,7 @@ const app = Vue.createApp({
         return {
             // product: 'Socks'
             // product: 'Boots',
-            description: 'This boots is difference',
+            description: 'This shoes is difference',
             // image: './assets/images/socks_green.jpg',
             link: 'http://www.camt.cmu.ac.th',
 
