@@ -5,7 +5,8 @@ const app = Vue.createApp({
             // product: 'Socks'
             product: 'Boots',
             description: 'This boots is difference',
-            image: './assets/images/socks_green.jpg'
+            image: './assets/images/socks_green.jpg',
+            link: 'http://www.camt.cmu.ac.th',
         }
     }
 })
