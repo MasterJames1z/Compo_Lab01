@@ -10,7 +10,8 @@ const app = Vue.createApp({
 
             product: 'Shoes',
             image: './assets/images/socks_green.jpg',
-            inStock: true
+            inStock: true,
+            inventory: 100
         }
     }
 })
