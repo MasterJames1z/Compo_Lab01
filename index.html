@@ -35,6 +35,7 @@
                     <ul>
                         <li v-for="detail in details">{{detail}}</li>
                     </ul>
+                    <div v-for="variant in variants" :key="variant.id">{{variant.color}}</div>
                     <p v-if="inventory > 50">onSale</p>
                     <p v-else-if="inventory <=50 && inventory >0">Sold Out</p>
                     <h3>{{description}}</h3>
