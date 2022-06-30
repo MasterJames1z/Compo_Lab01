@@ -29,6 +29,13 @@ const app = Vue.createApp({
             },
             updateImage(variantImage){
                 this.image = variantImage
+            },
+            changeStatus() {
+                if(this.inventory==100){
+                    this.inventory=0;
+                }else{
+                    this.inventory=100;
+                }
             }
         }
 })
